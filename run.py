@@ -31,6 +31,21 @@ def get_player_guess():
             print("Invalid input. Please enter a valid number between 1 and 20.\n")
 
 
+def check_guess(secret_number, guess):
+    """
+    Check the player's guess against the secret number and provide feedback
+    based on provided integer.
+    """
+    if guess == secret_number:
+        print(f"Congratulations! You guessed the number {secret_number} correctly!")
+        return True
+    elif guess < secret_number:
+        print("Too low! Try a higher number.\n")
+    else:
+        print("Too high! Try a lower number.\n")
+    return False
+
+
 def play_game():
     print(logo)
     print("Welcome to the Number Guessing Game!\n")
