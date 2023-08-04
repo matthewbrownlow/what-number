@@ -27,7 +27,7 @@ def get_player_guess():
         try:
             guess = int(input("Take a guess: "))
             return guess
-        except: ValueError:
+        except ValueError:
             print("Invalid input. Please enter a valid number between 1 and 20.\n")
 
 
