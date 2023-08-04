@@ -54,6 +54,8 @@ def play_game():
     print("Welcome to the Number Guessing Game!\n")
     print("I'm thinking of a number between 1 and 20.\n")
 
+    secret_number = generate_secret_number()
+    
     attempts = 0
     max_attempts = 5
 
@@ -65,7 +67,6 @@ def play_game():
             break
     else:
         print(f"Sorry, you've reached the maximum number of attempts. The secret number was {secret_number}.")
-
 
 if __name__ == "__main__":
     play_game()
