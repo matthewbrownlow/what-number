@@ -47,7 +47,25 @@ def check_guess(secret_number, guess):
 
 
 def play_game():
+    """
+    Main game loop for the number guessing game.
+    """
     print(logo)
     print("Welcome to the Number Guessing Game!\n")
     print("I'm thinking of a number between 1 and 20.\n")
 
+    attempts = 0
+    max_attempts = 5
+
+    while attempts < max_attempts:
+        guess = get_player_guess()
+        attempts += 1
+
+        if check_guess(secret_number, guess):
+            break
+    else:
+        print(f"Sorry, you've reached the maximum number of attempts. The secret number was {secret_number}.")
+
+
+if __name__ == "__main__":
+    play_game()
