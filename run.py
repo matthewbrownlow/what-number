@@ -11,6 +11,12 @@ logo = """
 |__/     \__/|__/  |__/ \_______/   \___/        |__/  \__/ \______/ |__/ |__/ |__/|_______/  \_______/|__/       |__/
 """
 
+def generate_secret_number():
+    """
+    Generate a number between 1 and 20.
+    """
+    return random.randint(1, 20)
+
 def play_game():
     print(logo)
     print("Welcome to the Number Guessing Game!\n")
