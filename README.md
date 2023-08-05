@@ -47,3 +47,9 @@ To play the number guessing game, follow these steps:
 
 ![Screenshot of beginning game terminal](assets/images/README.md/terminal-game-start.png)
 
+#### Correct Answer Guessed
+- Here the terminal displays a value fo `5` entered into the `Take a guess: ` value input, with a following message of `Congratulations! You guessed the number 5 correctly!` as the secret number was the value of `5`.
+- Displaying another value input to restart the game `Do you want to play again? (yes/no): `.
+
+![Screenshot of correct answer guessed](assets/images/README.md/terminal-game-correct-guess.png)
+
