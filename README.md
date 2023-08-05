@@ -95,3 +95,20 @@ To play the number guessing game, follow these steps:
 - If the guess is `too low` or `too high`, the function informs the player to try a higher or lower number, respectively.
 ![Screenshot of check_guess() function](assets/images/README.md/check_guess()-function.png)
 
+#### play_game( ) Function `run.py file`
+- The main game loop is implemented in the play_game() function.
+- It contains the logic for running the game from start to finish and handling multiple rounds if the player chooses to play again.
+- The loop starts with the ASCII art logo and a welcome message.
+- It generates a new secret number for each round and initialises the attempts counter.
+- Inside the loop, the player is prompted to enter a guess, and the game checks if it's correct or not.
+- If the player guesses correctly, the game congratulates them, and the loop ends for that round.
+- If the player exhausts all attempts without guessing correctly, the game informs the player about the secret number.
+- After each round, the player is asked if they want to play again. If the player enters `yes`, a new round starts. Otherwise, the loop exits, and the game ends.
+![Screenshot of play_game() function)](assets/images/README.md/play_game()-function.png)
+
+
+
+
+#### TextHere
+- TextHere
+![Screenshot of ](assets/images/README.md/)
