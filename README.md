@@ -65,3 +65,9 @@ To play the number guessing game, follow these steps:
 
 ![Screenshot of inccorect answer guessed, answer too high](assets/images/README.md/terminal-game-incorrect-guess-too-high.png)
 
+#### Incorrect Value Entered
+- Here the terminal displays an error message `Invalid input. Please enter a valid number between 1 and 20.` stating that the value entered is not a valid input.
+- Prompting the user to enter another value between `1` and `20`.
+
+![Screenshot of incorrect value entered, error message](assets/images/README.md/terminal-game-incorrect-value-entered-error-message.png)
+
