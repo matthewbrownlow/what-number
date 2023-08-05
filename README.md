@@ -40,3 +40,10 @@ To play the number guessing game, follow these steps:
 
 ## Features
 ### Existing Features
+#### Terminal Game Start
+- Here the terminal displays the `Running statup command: python3 run.py`
+- Game `ASCII logo` introducing you to the game `Welcome to the Number Guessing Game!`
+- Propting you to enter a value between 1 and 20 `I'm thinking of a number between 1 and 20.` following the `Take a guess: ` value input.
+
+![Screenshot of beginning game terminal](assets/images/README.md/terminal-game-start.png)
+
