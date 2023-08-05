@@ -68,5 +68,6 @@ def play_game():
     else:
         print(f"Sorry, you've reached the maximum number of attempts. The secret number was {secret_number}.")
 
+
 if __name__ == "__main__":
     play_game()
