@@ -71,3 +71,12 @@ To play the number guessing game, follow these steps:
 
 ![Screenshot of incorrect value entered, error message](assets/images/README.md/terminal-game-incorrect-value-entered-error-message.png)
 
+#### Maximum Attempts
+- Here the terminal displays 5 incorrect entries bringing the current game to a close with the following message `Sorry, you've reached the maximum number of attempts.`.
+- Providing the user with the correct answer: `The secret number was 12`.
+- Displaying another value input to restart the game `Do you want to play again? (yes/no): `.
+
+![Screenshot of maximum attempts message](assets/images/README.md/terminal-game-max-attempts-play-again-message.png)
+
+TextHere
+![Screenshot of ](assets/images/README.md/)
