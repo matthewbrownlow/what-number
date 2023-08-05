@@ -11,3 +11,32 @@
 
 ![Screenshot of am i responsive website displaying the Heroku hosted What Number? app on four different devices](assets/images/README.md/what-number-am-i-responsive.png)
 
+## How to play
+To play the number guessing game, follow these steps:
+
+- Run the Python script that contains the game code. You can execute the script using a Python interpreter on your computer.
+
+- The game will start with a cool ASCII art logo displaying the title `What Number?`.
+
+- The game will welcome you to the Number Guessing Game and inform you that it has `picked a random number between 1 and 20`.
+
+- You need to guess the secret number chosen by the game.
+
+- Enter your guess as an integer when prompted. Make sure your guess is a number between 1 and 20.
+
+- The game will inform you if your guess is correct or not. If it's correct, the game will congratulate you, and the round will end.
+
+- If your guess is incorrect, the game will provide feedback, telling you if the secret number is `higher` or `lower` than your guess.
+
+- You have a `total of 5 attempts` to guess the correct number. If you don't guess correctly within these attempts, the round ends.
+
+- After each round, the game will ask you if you want to play again. To play another round, enter `yes` when prompted. If you don't want to play again, enter anything other than `yes`, and the game will end.
+
+- The game will keep running as long as you choose to play again. You can keep playing and trying to guess the secret number in each round.
+
+- Remember, the game is all about trying to guess the secret number within a limited number of attempts. Use the feedback provided by the game to make better guesses in each round.
+
+- Have fun playing the Number Guessing Game and see if you can guess the secret number correctly!
+
+## Features
+### Existing Features
