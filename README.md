@@ -40,43 +40,40 @@ To play the number guessing game, follow these steps:
 
 ## Features
 ### Existing Features
-#### Terminal Game Start
+#### Terminal Game Start `Heroku`
 - Here the terminal displays the `Running statup command: python3 run.py`
 - Game `ASCII logo` introducing you to the game `Welcome to the Number Guessing Game!`
 - Propting you to enter a value between 1 and 20 `I'm thinking of a number between 1 and 20.` following the `Take a guess: ` value input.
-
 ![Screenshot of beginning game terminal](assets/images/README.md/terminal-game-start.png)
 
-#### Correct Answer Guessed
+#### Correct Answer Guessed `Heroku`
 - Here the terminal displays a value fo `5` entered into the `Take a guess: ` value input, with a following message of `Congratulations! You guessed the number 5 correctly!` as the secret number was the value of `5`.
 - Displaying another value input to restart the game `Do you want to play again? (yes/no): `.
-
 ![Screenshot of correct answer guessed](assets/images/README.md/terminal-game-correct-guess.png)
 
-#### Answer Guessed too Low
+#### Answer Guessed too Low `Heroku`
 - Here the terminal displays a value fo `2` entered into the `Take a guess: ` value input, with a following message of `Too low! Try a higher number.` as the secret number is higher than the value entered.
 - Prompting the user to enter another value `Take a guess: `.
-
 ![Screenshot of incorrect answer guessed, answer too low](assets/images/README.md/terminal-game-incorrect-guess-too-low.png)
 
-#### Answer Guessed too High
+#### Answer Guessed too High `Heroku`
 - Here the terminal displays a value fo `17` entered into the `Take a guess: ` value input, with a following message of `Too high! Try a lower number.` as the secret number is lower than the value entered.
 - Prompting the user to enter another value `Take a guess: `.
-
 ![Screenshot of inccorect answer guessed, answer too high](assets/images/README.md/terminal-game-incorrect-guess-too-high.png)
 
-#### Incorrect Value Entered
+#### Incorrect Value Entered `Heroku`
 - Here the terminal displays an error message `Invalid input. Please enter a valid number between 1 and 20.` stating that the value entered is not a valid input.
 - Prompting the user to enter another value between `1` and `20`.
-
 ![Screenshot of incorrect value entered, error message](assets/images/README.md/terminal-game-incorrect-value-entered-error-message.png)
 
-#### Maximum Attempts
+#### Maximum Attempts `Heroku`
 - Here the terminal displays 5 incorrect entries bringing the current game to a close with the following message `Sorry, you've reached the maximum number of attempts.`.
 - Providing the user with the correct answer: `The secret number was 12`.
 - Displaying another value input to restart the game `Do you want to play again? (yes/no): `.
-
 ![Screenshot of maximum attempts message](assets/images/README.md/terminal-game-max-attempts-play-again-message.png)
 
-TextHere
-![Screenshot of ](assets/images/README.md/)
+#### ASCII Art Logo `run.py file`
+- The game starts with an ASCII art logo displaying the title `What Number?`.
+- The logo is visually appealing and adds a nice touch to the game.
+![Screenshot of the ASCII logo](assets/images/README.md/ASCII-logo.png)
+
