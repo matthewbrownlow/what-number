@@ -83,3 +83,9 @@ To play the number guessing game, follow these steps:
 - The generated secret number will be the number that the player needs to guess.
 ![Screenshot of generate_secret_number() function](assets/images/README.md/generate_secret_number()-function.png)
 
+#### get_player_guess( ) Function `run.py file`
+- This function prompts the player to enter their guess for the secret number.
+- It uses a while loop to repeatedly ask for input until the player enters a valid integer between `1` and `20`.
+- If the player enters an invalid input (e.g., a non-numeric value or a number outside the valid range), an error message is displayed, and the player is prompted to try again.
+![Screenshot of get_player_guess() fucntion](assets/images/README.md/get_player_guess()-function.png)
+
