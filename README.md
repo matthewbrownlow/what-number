@@ -1,7 +1,7 @@
 # What Number?
 > [Click here to view the live website on GitHub Pages](https://what-number-c26ae6113643.herokuapp.com/) Please note: To open any links in this document in a new browser tab, please press `Cmd ⌘ + Click` (Mac) or `CTRL + Click` (Windows/Linux)
 
-- The Number Guessing Game is a simple Python text-based game where the player tries to guess a secret number randomly generated between 1 and 20. The game starts by welcoming the player and informing them of the number range. The player has a maximum of 5 attempts to guess the secret number correctly. After each guess, the game provides feedback, indicating whether the guess is too high or too low.
+- The Number Guessing Game is a simple Python text-based game where the player tries to guess a secret number randomly generated between `1` and `20`. The game starts by welcoming the player and informing them of the number range. The player has a `maximum of 5 attempts` to guess the secret number correctly. After each guess, the game provides feedback, indicating whether the guess is `too high` or `too low`.
 
 - If the player correctly guesses the secret number within the allowed attempts, the game congratulates them and asks if they want to play again. If the player exhausts all attempts without guessing the correct number, the game informs them of the secret number and asks if they want to play again.
 
@@ -22,7 +22,7 @@ To play the number guessing game, follow these steps:
 
 - You need to guess the secret number chosen by the game.
 
-- Enter your guess as an integer when prompted. Make sure your guess is a number between 1 and 20.
+- Enter your guess as an integer when prompted. Make sure your guess is a number between `1` and `20`.
 
 - The game will inform you if your guess is correct or not. If it's correct, the game will congratulate you, and the round will end.
 
@@ -85,7 +85,7 @@ To play the number guessing game, follow these steps:
 
 #### get_player_guess( ) Function `run.py file`
 - This function prompts the player to enter their guess for the secret number.
-- It uses a while loop to repeatedly ask for input until the player enters a valid integer between `1` and `20`.
+- It uses a `while loop` to repeatedly ask for input until the player enters a valid integer between `1` and `20`.
 - If the player enters an invalid input (e.g., a non-numeric value or a number outside the valid range), an error message is displayed, and the player is prompted to try again.
 ![Screenshot of get_player_guess() fucntion](assets/images/README.md/get_player_guess()-function.png)
 
@@ -96,19 +96,15 @@ To play the number guessing game, follow these steps:
 ![Screenshot of check_guess() function](assets/images/README.md/check_guess()-function.png)
 
 #### play_game( ) Function `run.py file`
-- The main game loop is implemented in the play_game() function.
+- The main game loop is implemented in the `play_game()` function.
 - It contains the logic for running the game from start to finish and handling multiple rounds if the player chooses to play again.
-- The loop starts with the ASCII art logo and a welcome message.
+- The `loop` starts with the ASCII art logo and a welcome message.
 - It generates a new secret number for each round and initialises the attempts counter.
-- Inside the loop, the player is prompted to enter a guess, and the game checks if it's correct or not.
-- If the player guesses correctly, the game congratulates them, and the loop ends for that round.
+- Inside the `loop`, the player is prompted to enter a guess, and the game checks if it's correct or not.
+- If the player guesses correctly, the game congratulates them, and the `loop` ends for that round.
 - If the player exhausts all attempts without guessing correctly, the game informs the player about the secret number.
-- After each round, the player is asked if they want to play again. If the player enters `yes`, a new round starts. Otherwise, the loop exits, and the game ends.
+- After each round, the player is asked if they want to play again. If the player enters `yes`, a new round starts. Otherwise, the `loop` exits, and the game ends.
 ![Screenshot of play_game() function)](assets/images/README.md/play_game()-function.png)
+- the `if __name__ == "__main__":` block ensures that the `play_game()` function is only called and the game is started when the script is run directly as the main program.
+![Screenshot of play_game() function if statement](assets/images/README.md/initial-game-start-if-statement.png)
 
-
-
-
-#### TextHere
-- TextHere
-![Screenshot of ](assets/images/README.md/)
