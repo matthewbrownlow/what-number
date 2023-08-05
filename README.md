@@ -77,3 +77,9 @@ To play the number guessing game, follow these steps:
 - The logo is visually appealing and adds a nice touch to the game.
 ![Screenshot of the ASCII logo](assets/images/README.md/ASCII-logo.png)
 
+#### generate_secret_number( ) Function `run.py file`
+- This function generates a random secret number between 1 and 20 (inclusive) using the `random.randint()` function from the `random` module library.
+![Screenshot of import random library](assets/images/README.md/import-random.png)
+- The generated secret number will be the number that the player needs to guess.
+![Screenshot of generate_secret_number() function](assets/images/README.md/generate_secret_number()-function.png)
+
