@@ -59,3 +59,9 @@ To play the number guessing game, follow these steps:
 
 ![Screenshot of incorrect answer guessed, answer too low](assets/images/README.md/terminal-game-incorrect-guess-too-low.png)
 
+#### Answer Guessed too High
+- Here the terminal displays a value fo `17` entered into the `Take a guess: ` value input, with a following message of `Too high! Try a lower number.` as the secret number is lower than the value entered.
+- Prompting the user to enter another value `Take a guess: `.
+
+![Screenshot of inccorect answer guessed, answer too high](assets/images/README.md/terminal-game-incorrect-guess-too-high.png)
+
