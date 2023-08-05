@@ -128,6 +128,7 @@ Remaining Bugs:
     - No errors were returned from PEP8online.com
 
 ## Deployment
+> [Click here to view the live website on GitHub Pages](https://what-number-c26ae6113643.herokuapp.com/) Please note: To open any links in this document in a new browser tab, please press `Cmd ⌘ + Click` (Mac) or `CTRL + Click` (Windows/Linux)
 This project was deployed using the Code Institute mock terminal for Heroku.
 Deployment Steps:
 - Fork or clone this repository.
