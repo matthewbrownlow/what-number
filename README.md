@@ -127,3 +127,12 @@ Remaining Bugs:
 - PEP8
     - No errors were returned from PEP8online.com
 
+## Deployment
+This project was deployed using the Code Institute mock terminal for Heroku.
+Deployment Steps:
+- Fork or clone this repository.
+- Create a new Heroku app.
+- Set the build-packs to `heroku/python` and `heroku/node.js` in that order.
+- Link the Heroku app to the repository.
+- Click on deploy.
+
