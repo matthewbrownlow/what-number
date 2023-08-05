@@ -89,3 +89,9 @@ To play the number guessing game, follow these steps:
 - If the player enters an invalid input (e.g., a non-numeric value or a number outside the valid range), an error message is displayed, and the player is prompted to try again.
 ![Screenshot of get_player_guess() fucntion](assets/images/README.md/get_player_guess()-function.png)
 
+#### check_guess( ) Function `run.py file`
+- This function compares the player's guess with the secret number and provides feedback to the player.
+- If the guess is correct (equal to the secret number), the function prints a congratulatory message.
+- If the guess is `too low` or `too high`, the function informs the player to try a higher or lower number, respectively.
+![Screenshot of check_guess() function](assets/images/README.md/check_guess()-function.png)
+
