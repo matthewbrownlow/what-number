@@ -110,3 +110,20 @@ To play the number guessing game, follow these steps:
 ## Data Model
 The data model for this number guessing game consists of the secret number, the player's guesses, attempts counter, feedback messages, and the play again option. It manages the game's flow and user interactions through these simple data elements.
 
+## Testing
+I have manually tested this project by doing the following:
+- Passed the code through a PEP8 linter and confirmed there are no problems.
+- Given invalid inputs: strings when numbers are expected, out of bounds inputs, same input twice.
+- Tested in my local terminal and the Code Institute Heroku terminal.
+
+### Bugs
+Solved Bugs:
+- When looking for ASCII Art for the title `What Number?`, originally I used the font name `Big Money-ne`, however; the width of the text exceeded constraints of the maximum column width of `80pts`. This was changed to the font name `Small Keyboard` which did not exceed the constraints and I found more relevant to the style of game.
+
+Remaining Bugs:
+- No bugs remaining
+
+### Validator Testing
+- PEP8
+    - No errors were returned from PEP8online.com
+
