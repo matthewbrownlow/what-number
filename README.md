@@ -136,3 +136,7 @@ Deployment Steps:
 - Link the Heroku app to the repository.
 - Click on deploy.
 
+## Credits
+### Websites:
+- [patorjk](https://patorjk.com/software/taag/#p=testall&f=Small&t=What%20Number%3F%0A)
+    - Font name: Small Keyboard
